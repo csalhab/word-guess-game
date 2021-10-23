@@ -20,7 +20,7 @@ How to use and play this game/application:
 
 - A reset score button is available to start from scratch.
 
-### Javascript
+## Javascript
 
 - When a user presses a letter key, the user's guess is captured as a key event.
 
