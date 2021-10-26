@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CSS Box Styling</title>
+    <title>Cryptogram-Word</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
-      <div class="large-font">Word Guess Game</div>
+      <div class="large-font">Cryptogram-Word Game</div>
       <button class="start-button">Start</button>
     </header>
+
+    <p></p>
+    <p class="instructions">
+      You have 1 minute to figure out the word and find the answer.
+    </p>
+    <p class="instructions">The cryptic letters below are hints.</p>
+    <p class="instructions">Good Luck!</p>
+    <p></p>
 
     <main>
       <section>
         <div class="card word-guess">
-          <div class="large-font word-blanks">J _ v _ S c r_ _t</div>
+          <div class="directions-container">
+            <div class="directions-leftside">
+              <div class="large-font word-blanks">
+                <div class="directions-leftside">answer:</div>
+                <div class="directions-leftside">cryptic hint:</div>
+              </div>
+            </div>
+            <div class="directions-rightside">
+              <div class="large-font word-blanks">
+                <div class="directions-rightside">h a p p i n e s s</div>
+                <div class="directions-rightside">s x i i o d g e e</div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -30,7 +51,7 @@
           </div>
           <div class="card timer">
             <div class="timer-text">
-              <div class="large-font timer-count">10</div>
+              <div class="large-font timer-count">60</div>
               <h3>seconds remaining</h3>
             </div>
           </div>

@@ -18,13 +18,13 @@ var blanksLetters = [];
 
 // Array of words the user will guess
 var words = [
-  "variable",
-  "array",
-  "modulus",
-  "object",
-  "function",
-  "string",
-  "boolean",
+  "happiness",
+  "people",
+  "tiktok",
+  "fierce",
+  "hello",
+  "bye",
+  "peace",
 ];
 
 // The init function is called when the page loads
@@ -36,7 +36,7 @@ function init() {
 // The startGame function is called when the start button is clicked
 function startGame() {
   isWin = false;
-  timerCount = 10;
+  timerCount = 60;
   // Prevents start button from being clicked when round is in progress
   startButton.disabled = true;
   renderBlanks();
@@ -79,7 +79,7 @@ function startTimer() {
       clearInterval(timer);
       loseGame();
     }
-  }, 1000);
+  }, 6000);
 }
 
 // Creates blanks on screen
