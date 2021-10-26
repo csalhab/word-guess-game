@@ -64,6 +64,52 @@ section {
   border-radius: 8px;
 }
 
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.center { 
+  justify-content: center; 
+}  
+.center li {
+  background: deepskyblue;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 24px;
+}
+
+.directions-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.directions-leftside {
+  text-align: right;
+  border: 1px solid blue;
+}
+
+.directions-rightside {
+  text-align: left;
+  border: 1px solid red;
+}
+
 .word-guess {
   width: 55vw;
   height: 400px;
@@ -84,9 +130,9 @@ section {
   padding: 20px;
 }
 
-.word-blanks {
+/* .word-blanks {
   line-height: 360px;
-}
+} */
 
 .large-font {
   font-size: 3.5em;
