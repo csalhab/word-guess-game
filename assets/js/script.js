@@ -21,7 +21,7 @@ var words = [
   "variable",
   "array",
   "modulus",
-  "object",
+  "objects",
   "function",
   "string",
   "boolean",
